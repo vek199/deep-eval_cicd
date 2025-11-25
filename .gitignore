@@ -1,23 +1,38 @@
+# Virtual environments
 venv/
 .venv/
+
+# Environment files
 .env
-.DS_Store
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# IDE
 .vscode/
 .idea/
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Testing
 .pytest_cache/
+.coverage
+htmlcov/
+
+# DeepEval
+.deepeval/
+
+# Linters
 .ruff_cache/
 .mypy_cache/
-.pytest_cache/
-.ruff_cache/
-.mypy_cache/
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-.env.development
-.env.test
-.env.production
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
