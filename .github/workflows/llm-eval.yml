@@ -32,4 +32,4 @@ jobs:
 
       - name: Run DeepEval tests
         run: |
-          deepeval test run
+          deepeval test run test_qwen_eval.py
